@@ -35,13 +35,13 @@ Calling #wagga repeatedly will return
     irb> wagga
      => "woogle"
 
-You also have these utility methods:
+You also get the utility methods #last_X and #reset_X -
 
-    > last_wagga
+    irb> last_wagga
      => "woogle"
 
-    > reset_wagga
-    > wagga
+    irb> reset_wagga
+    irb> wagga
      => "wimp"
 
 
