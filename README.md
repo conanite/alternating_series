@@ -20,29 +20,29 @@ AlternatingSeries generalises this concept so you can declare any name and expec
 
 Calling #wagga repeatedly will return
 
-  > wagga
-  "wimp"
+  irb> wagga
+   => "wimp"
 
-  > wagga
-  "woogle"
+  irb> wagga
+   => "woogle"
 
-  > wagga
-  "wop"
+  irb> wagga
+   => "wop"
 
-  > wagga
-  "wimp"
+  irb> wagga
+   => "wimp"
 
-  > wagga
-  "woogle"
+  irb> wagga
+   => "woogle"
 
 You also have these utility methods:
 
   > last_wagga
-  "woogle"
+   => "woogle"
 
   > reset_wagga
   > wagga
-  "wimp"
+   => "wimp"
 
 
 ## Installation
