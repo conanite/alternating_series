@@ -16,33 +16,33 @@ Repeated calls to #rowclass return 'oddrow', 'evenrow', 'oddrow', 'evenrow', and
 
 AlternatingSeries generalises this concept so you can declare any name and expect it to provide sequential values from an array you provide:
 
-  series :wagga, %{ wimp woogle wop }
+    series :wagga, %{ wimp woogle wop }
 
 Calling #wagga repeatedly will return
 
-  irb> wagga
-   => "wimp"
+    irb> wagga
+     => "wimp"
 
-  irb> wagga
-   => "woogle"
+    irb> wagga
+     => "woogle"
 
-  irb> wagga
-   => "wop"
+    irb> wagga
+     => "wop"
 
-  irb> wagga
-   => "wimp"
+    irb> wagga
+     => "wimp"
 
-  irb> wagga
-   => "woogle"
+    irb> wagga
+     => "woogle"
 
 You also have these utility methods:
 
-  > last_wagga
-   => "woogle"
+    > last_wagga
+     => "woogle"
 
-  > reset_wagga
-  > wagga
-   => "wimp"
+    > reset_wagga
+    > wagga
+     => "wimp"
 
 
 ## Installation
